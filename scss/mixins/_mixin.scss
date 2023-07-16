@@ -1,0 +1,16 @@
+@mixin nav_mixin() {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@mixin font-mixin($fw, $ff) {
+  font-family: $primary-font;
+  font-weight: $fw;
+  font-size: $ff;
+}
+
+@mixin bgintro {
+  // @include background-image("/images/backgrounds/07.jpg");
+  background-image: url(../../assets/images/intro-bg13.jpg);
+}

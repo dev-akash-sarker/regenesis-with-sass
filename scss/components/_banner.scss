@@ -1,0 +1,59 @@
+.mainbanner {
+  position: relative;
+  .bannerposition {
+    font-family: $primary-font;
+    position: absolute;
+    top: 50%;
+    left: 280px;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 592px;
+    .banner-title {
+      font-weight: 600;
+      font-size: 36px;
+      color: #fff;
+      line-height: 46px;
+    }
+
+    .banner-description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color: #ffffffe0;
+      margin-top: 20px;
+      margin-bottom: 35px;
+    }
+
+    .buttonflex {
+      display: flex;
+      justify-content: flex-start;
+      button {
+        padding: 10px 22px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+        line-height: 16px;
+        transition: all linear 0.3s;
+
+        &:hover {
+          background-color: transparent;
+          color: #fff;
+        }
+      }
+      .quickvideo {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        font-size: 18px;
+        color: white;
+        border: 1px solid transparent;
+        gap: 10px;
+        i {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
